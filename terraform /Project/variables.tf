@@ -13,5 +13,8 @@ variable "service_principal_name" {
   description = "service principal name"
 }
 
-
+variable "acr_name" {
+  type        = string
+  description = "The name of the Azure Container Registry"
+}
 
